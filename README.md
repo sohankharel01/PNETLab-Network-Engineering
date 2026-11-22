@@ -1,54 +1,70 @@
-# Lab 01 – Simple Network
+# PNETLab Network Engineering Labs
 
-My first enterprise networking lab built in **PNETLab**. This lab simulates two departments connected through a router, using separate subnets.
+A hands-on network engineering lab project built using **PNETLab** and virtual network devices. This repository documents my practical networking journey through network design, device configuration, troubleshooting, and infrastructure experimentation.
 
-## Topology
+The goal is to build real-world networking skills through practical labs and scenarios, with a focus on enterprise networking and cybersecurity.
 
-- 1 Cisco C7200 Router
-- 2 Cisco IOL Layer 2 Switches
-- 4 PCs (VPCS)
-- 2 Printer endpoints (VPCS)
-- 2 Departments (IT & HR)
+## 🎯 Objectives
 
-## Network Configuration
+- Develop practical networking skills through hands-on labs.
+- Understand network topologies and infrastructure design.
+- Practice IP addressing and subnetting.
+- Configure routers and switches.
+- Learn VLANs, trunking, routing, and network services.
+- Develop troubleshooting and network analysis skills.
+- Understand enterprise network architecture.
+- Build a practical networking portfolio.
 
-| Department | Network | Gateway |
-|---|---|---|
-| IT | `192.168.40.0/25` | `192.168.40.1` |
-| HR | `192.168.40.128/25` | `192.168.40.129` |
+## 🧪 Lab Environment
 
-### IP Addressing
-
-| Device | IP Address |
+| Component | Platform |
 |---|---|
-| IT-PC1 | `192.168.40.10` |
-| IT-Printer | `192.168.40.11` |
-| IT-PC2 | `192.168.40.12` |
-| HR-PC1 | `192.168.40.130` |
-| HR-PC2 | `192.168.40.131` |
-| HR-Printer | `192.168.40.132` |
+| Virtualization | PNETLab |
+| Network devices | Virtual routers and switches |
+| End devices | VPCS and virtual machines |
+| Host machine | Windows |
+| Documentation | Markdown |
+| Network topologies | PNETLab |
 
-## Tests
+*Device images and models may vary depending on availability and compatibility.*
 
-- HR-PC1 → HR Gateway: Successful
-- HR-PC2 → HR Gateway: Successful
-- HR-PC1 → HR-PC2: Successful
+## ⚙️ Lab Workflow
 
-## Tools
+Each lab follows a practical workflow:
 
-- PNETLab
-- Cisco IOS
-- VPCS
+1. **Scenario** — Understand the network requirements and objectives.
+2. **Topology** — Design and build the network in PNETLab.
+3. **Planning** — Prepare IP addressing and network configurations.
+4. **Configuration** — Configure routers, switches, and end devices.
+5. **Verification** — Test connectivity and validate network functionality.
+6. **Troubleshooting** — Identify and resolve network problems.
+7. **Documentation** — Record configurations, diagrams, results, and lessons learned.
 
-## Skills Practiced
+## 🛠️ Technologies & Concepts
 
-- Network topology design
-- IPv4 subnetting
-- Router and switch configuration
-- IP addressing
-- Ping testing
-- Network troubleshooting
+`PNETLab` · `TCP/IP` · `IPv4` · `Subnetting` · `VLAN` · `Trunking` · `STP` · `Static Routing` · `RIP` · `EIGRP` · `OSPF` · `DHCP` · `DNS` · `NAT` · `ACL` · `Network Security`
 
-## Author
+## 📈 Progress
 
-**SohanSec** — Learning Enterprise Networking & Cybersecurity
+This project is actively maintained. New labs, network topologies, configurations, troubleshooting scenarios, and documentation will be added as the project progresses.
+
+## 🎓 Learning Purpose
+
+This repository is intended for educational purposes, hands-on practice, networking skill development, and cybersecurity preparation. All experiments are performed in a controlled virtual lab environment.
+
+## 👨‍💻 Author
+
+**SohanSec**
+
+Cybersecurity | Networking | Linux | Penetration Testing
+
+- Website: [sohankharel.com.np](https://sohankharel.com.np)
+- GitHub: [sohankharel01](https://github.com/sohankharel01)
+
+---
+
+> Learn how networks work. Build them. Break them. Troubleshoot them. Secure them.
+
+---
+
+⭐ **If you find this repository useful, consider giving it a star!** It helps support the project and motivates me to keep building and sharing more networking labs.
