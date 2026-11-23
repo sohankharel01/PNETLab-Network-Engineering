@@ -1,4 +1,4 @@
-# Lab 01 – IT & HR Network
+# Lab 01 – Simple Network
 
 My first enterprise networking lab built in **PNETLab**. This lab simulates two departments connected through a router, using separate subnets.
 
