@@ -1,1 +1,42 @@
+# SOHO Network Lab
 
+A small office network built in **PNETLab** to practice VLANs, switching, routing, DHCP, and basic network security.
+
+## Topology
+
+- **R1** – Cisco 7200 Router
+- **SW1** – Cisco IOL Layer 2 Switch
+- **AP1** – OpenWrt Access Point
+- **PC1–PC5** – Client devices
+
+## VLANs & IP Addressing
+
+| VLAN | Name | Network | Gateway |
+|---|---|---|---|
+| 10 | ADMIN | 192.168.10.0/24 | 192.168.10.1 |
+| 20 | FINANCE | 192.168.20.0/24 | 192.168.20.1 |
+| 30 | CUSTOMER | 192.168.30.0/24 | 192.168.30.1 |
+
+## What I Configured
+
+- Created VLANs 10, 20, and 30
+- Configured switch access ports
+- Configured 802.1Q trunking
+- Implemented Router-on-a-Stick
+- Configured DHCP for all VLANs
+- Tested client IP assignment and gateway connectivity
+- Saved device configurations
+
+## Tools
+
+- PNETLab
+- Cisco IOS
+- OpenWrt
+
+## Project Status
+
+**In Progress** — Working on client connectivity, troubleshooting, and network security.
+
+## Goal
+
+Build practical networking skills and understand how to design, configure, and secure a segmented office network.
