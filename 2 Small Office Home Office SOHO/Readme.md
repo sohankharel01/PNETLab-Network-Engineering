@@ -11,11 +11,6 @@ A small office network built in **PNETLab** to practice VLANs, switching, routin
 | AP1 | OpenWrt Access Point |
 | PC1–PC5 | Client devices |
 
-<p align="center">
-  <img src="images/router.png" width="250" alt="Router">
-  &nbsp;&nbsp;&nbsp;
-  <img src="images/switch.png" width="250" alt="Switch">
-</p>
 
 ## VLANs & IP Addressing
 
