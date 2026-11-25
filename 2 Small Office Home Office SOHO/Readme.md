@@ -4,10 +4,18 @@ A small office network built in **PNETLab** to practice VLANs, switching, routin
 
 ## Topology
 
-- **R1** – Cisco 7200 Router
-- **SW1** – Cisco IOL Layer 2 Switch
-- **AP1** – OpenWrt Access Point
-- **PC1–PC5** – Client devices
+| Device | Description |
+|---|---|
+| R1 | Cisco 7200 Router |
+| SW1 | Cisco IOL Layer 2 Switch |
+| AP1 | OpenWrt Access Point |
+| PC1–PC5 | Client devices |
+
+<p align="center">
+  <img src="images/router.png" width="250" alt="Router">
+  &nbsp;&nbsp;&nbsp;
+  <img src="images/switch.png" width="250" alt="Switch">
+</p>
 
 ## VLANs & IP Addressing
 
@@ -20,11 +28,10 @@ A small office network built in **PNETLab** to practice VLANs, switching, routin
 ## What I Configured
 
 - Created VLANs 10, 20, and 30
-- Configured switch access ports
-- Configured 802.1Q trunking
+- Configured access ports and 802.1Q trunking
 - Implemented Router-on-a-Stick
 - Configured DHCP for all VLANs
-- Tested client IP assignment and gateway connectivity
+- Tested IP assignment and gateway connectivity
 - Saved device configurations
 
 ## Tools
@@ -35,8 +42,8 @@ A small office network built in **PNETLab** to practice VLANs, switching, routin
 
 ## Project Status
 
-**In Progress** — Working on client connectivity, troubleshooting, and network security.
+**In Progress** — Working on connectivity, troubleshooting, and network security.
 
 ## Goal
 
-Build practical networking skills and understand how to design, configure, and secure a segmented office network.
+Build practical networking skills and learn to design, configure, and secure a segmented office network.
